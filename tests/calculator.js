@@ -18,6 +18,23 @@ describe('demo calculator tests', function () {
 
     });
 
+    it('addition2 test', function () {
+
+        homepage.get('http://juliemr.github.io/protractor-demo/');
+
+        homepage.enterFirstNumber('5');
+
+        homepage.enterSecondNumber('5');
+
+        homepage.clickGo();
+
+        homepage.verifyResult('10');
+
+        browser.sleep(3000);
+
+    });
+
+
     // it('subtraction test', function () {
 
     //     homepage.get('http://juliemr.github.io/protractor-demo/');
