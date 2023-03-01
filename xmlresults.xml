@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites disabled="0" errors="0" failures="0" tests="1" time="6.538">
- <testsuite name="contact us tests" timestamp="2023-03-01T15:49:13" hostname="localhost" time="6.538" errors="0" tests="1" skipped="0" disabled="0" failures="0">
-  <testcase classname="contact us tests" name="successful submission - specific data" time="6.536" />
+<testsuites disabled="0" errors="0" failures="0" tests="2" time="12.31">
+ <testsuite name="contact us tests" timestamp="2023-03-01T20:25:11" hostname="localhost" time="12.31" errors="0" tests="2" skipped="0" disabled="0" failures="0">
+  <testcase classname="contact us tests" name="successful submission - specific data" time="7.549" />
+  <testcase classname="contact us tests" name="successful submission - unique data" time="4.755" />
  </testsuite>
 </testsuites>

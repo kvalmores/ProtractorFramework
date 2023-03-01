@@ -12,7 +12,10 @@ exports.config = {
 
   // Capabilities to be passed to the webdriver instance.
   capabilities: {
-    'browserName': 'chrome'
+    'browserName': 'chrome',
+    chromeOptions: {
+      'args': ['--disable-notifications']
+    }
   },
 
   // Framework to use. Jasmine is recommended.
