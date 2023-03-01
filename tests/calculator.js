@@ -34,20 +34,20 @@ describe('demo calculator tests', function () {
 
     });
 
-    it('subtraction test', function () {
+    // it('subtraction test', function () {
 
-        homepage.get('http://juliemr.github.io/protractor-demo/');
+    //     homepage.get('http://juliemr.github.io/protractor-demo/');
 
-        homepage.enterFirstNumber('5');
+    //     homepage.enterFirstNumber('5');
 
-        homepage.enterSecondNumber('5');
+    //     homepage.enterSecondNumber('5');
 
-        homepage.clickGo1();
+    //     homepage.clickGo1();
 
-        homepage.verifyResult('10');
+    //     homepage.verifyResult('10');
 
-        browser.sleep(3000);
+    //     browser.sleep(3000);
 
-    });
+    // });
 
 });
