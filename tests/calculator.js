@@ -34,4 +34,20 @@ describe('demo calculator tests', function () {
 
     });
 
+    it('subtraction test', function () {
+
+        homepage.get('http://juliemr.github.io/protractor-demo/');
+
+        homepage.enterFirstNumber('5');
+
+        homepage.enterSecondNumber('5');
+
+        homepage.clickGo2();
+
+        homepage.verifyResult('10');
+
+        browser.sleep(3000);
+
+    });
+
 });
